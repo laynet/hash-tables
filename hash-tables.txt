@@ -1,0 +1,13 @@
+EXERCISES
+1. What is a hash table?
+-A data structure that stores value in a key and forms a key-value pair.
+2. What is hashing?
+-The conversion from a key to any type of numerical index.
+3. How does a hash table store data?
+-By using a hashing function to store the data in a hash table where it can be quickly retrieved by index
+4. How are hash tables and objects different?
+-Objects are organized by the type of data and hash tables are organized by the data key. It's sometimes acceptable to to use hash tables like objects and vice versa.
+PROGRAMMING QUESTIONS
+1.Create a hash table that allows a sales associate to enter a customer's name, address, and phone number into the system and look up customers using their phone numbers.
+2.Create a hash table that allows a store owner to track their store's inventory and quantity.
+3.Create a hash table that allows digital copies of newspapers to be entered and searched by publisher and publication date.
