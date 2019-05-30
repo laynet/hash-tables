@@ -6,7 +6,18 @@ EXERCISES
 3. How does a hash table store data?
 -By using a hashing function to store the data in a hash table where it can be quickly retrieved by index
 4. How are hash tables and objects different?
--Objects are organized by the type of data and hash tables are organized by the data key. It's sometimes acceptable to to use hash tables like objects and vice versa.
+-Hash tables are used as a collection of similar data, while objects can hold different types of data put together.
+5. Determine whether you would use a hash table or an object to store each of the following pieces of data:
+A list of pets and their unique names.
+-hash table
+The name, age, and the birthday of your best friend.
+-object
+The name and location of every company in a given city.
+-hash table
+All of the books checked out from a library by a particular individual.
+-hash table
+The primary and secondary phone numbers for a contact.
+-object
 PROGRAMMING QUESTIONS
 1.Create a hash table that allows a sales associate to enter a customer's name, address, and phone number into the system and look up customers using their phone numbers.
 let HashTable = function() {
